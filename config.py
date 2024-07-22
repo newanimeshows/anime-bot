@@ -43,7 +43,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "3"))
 
 # start message
 START_MSG = os.environ.get(
-    "START_MESSAGE", "       ")
+    "START_MESSAGE", " hello there is the bot i am makinng and its not woring some how! ")
 
 try:
     ADMINS = [6450266465]
@@ -54,7 +54,7 @@ except ValueError:
 
 
 FORCE_MSG = os.environ.get(
-    "FORCE_SUB_MESSAGE", "<center> ꜱᴇɴᴘɪᴇ </center>\n\nᴛᴏ ᴜꜱᴇ ᴍᴇ ᴊᴏɪɴ ᴛᴏ ᴍʏ ᴄʜᴀɴɴᴇʟ ꜰɪʀꜱᴛ")
+    "FORCE_SUB_MESSAGE", "<center> ꜱᴇɴᴘɪᴇ </center>\n\nᴛᴏ ᴜꜱᴇ ᴍᴇ ᴊᴏɪɴ ᴛᴏ ᴍʏ ᴄʜᴀɴɴᴇʟ ꜰɪʀꜱᴛ ( this is okay)")
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
@@ -65,7 +65,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get(
     "DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = ""
+USER_REPLY_TEXT = "i dont know what user reply is ?"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1768198143)
