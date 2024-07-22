@@ -16,18 +16,19 @@ print(f'Public IP Address: {ip}')
 # Load the .env file
 load_dotenv()
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6165720229:AAElbb8k6kIlpgmxpjkhUXz4H6gUNsd7ATo
+")
+APP_ID = int(os.environ.get("APP_ID", "19277331"))
+API_HASH = os.environ.get("API_HASH", "0df4b3b4eee9baa47694411eb4317115")
 
 
-OWNER = os.environ.get("OWNER", "")  # Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))  # Owner user id
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "")
+OWNER = os.environ.get("OWNER", "@ayan_alam")  # Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "1196934318"))  # Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://animecluster01: rQtmXACiJVc0Ne4O@animecluster01.ordpsuu.mongodb.net/?retryWrites=true&w=majority&appName=animeCluster01")
+DB_NAME = os.environ.get("DB_NAME", "animecluster01")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002169291947"))
 FORCE_SUB_CHANNEL1 = int(os.environ.get(
     "FORCE_SUB_CHANNEL1", "0"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get(
