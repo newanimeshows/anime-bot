@@ -16,8 +16,7 @@ print(f'Public IP Address: {ip}')
 # Load the .env file
 load_dotenv()
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6165720229:AAElbb8k6kIlpgmxpjkhUXz4H6gUNsd7ATo
-")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "19277331"))
 API_HASH = os.environ.get("API_HASH", "0df4b3b4eee9baa47694411eb4317115")
 
